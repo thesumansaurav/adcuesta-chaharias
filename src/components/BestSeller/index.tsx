@@ -1,14 +1,19 @@
 "use client";
 
 import { CatalogData } from "@/lib/data";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Heading from "../Heading";
 import InnerWrapper from "../InnerWrapper";
 
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-const BestSellerCard = () => {
+type PRODUCT = {
+  id: number; title: string; description: string; imagePath: StaticImageData;
+}
+
+const BestSellerCard = ({ product }: { product: PRODUCT }) => {
+  console.log(product)
   return (
     <div className="">
       <Image
@@ -32,7 +37,7 @@ const BestSeller = () => {
     <div className="hidden md:block">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {CatalogData.slice(0, 4).map((product) => (
-          <BestSellerCard key={product.id} />
+          <BestSellerCard key={product.id} product={product} />
         ))}
       </div>
     </div>
