@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Img1 from "../../../../public/assets/1.jpg";
-import Img2 from "../../../../public/assets/2.jpg";
+import Img2 from "../../../../public/assets/NEW.jpg";
 import Img3 from "../../../../public/assets/3.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
