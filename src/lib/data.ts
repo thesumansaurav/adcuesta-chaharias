@@ -1,9 +1,9 @@
 import Sarees from "../../public/assets/catalogue/sarees.jpg";
 import Suits from "../../public/assets/catalogue/suits.jpg";
 import Lehenga from "../../public/assets/catalogue/lehanga.jpg";
-import Accessories from "../../public/assets/catalogue/accessories.jpg";
+import Accessories from "../../public/assets/catalogue/new2.jpg";
 import DressMaterial from "../../public/assets/catalogue/dress.jpg";
-import SuitingShirting from "../../public/assets/catalogue/suiting-shirting.jpg";
+import SuitingShirting from "../../public/assets/catalogue/new1.jpg";
 import Woolen from "../../public/assets/catalogue/woolen.jpg";
 import Handloom from "../../public/assets/catalogue/handloom.jpg";
 

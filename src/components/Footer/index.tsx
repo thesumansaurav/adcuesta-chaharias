@@ -36,6 +36,9 @@ const Footer = () => {
           <Link className="block" href="terms-conditions">
             Terms & Conditions
           </Link>
+          <Link className="block" href="terms-conditions">
+            About Us
+          </Link>
         </div>
         <div>
           <p className="text-3xl mb-3 text-white">Support</p>

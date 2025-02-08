@@ -7,6 +7,7 @@ import InnerWrapper from "../InnerWrapper";
 
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Img1 from "../../../public/assets/Bestseller/1-.jpg";
 
 type PRODUCT = {
   id: number; title: string; description: string; imagePath: StaticImageData;
@@ -19,7 +20,7 @@ const BestSellerCard = ({ product }: { product: PRODUCT }) => {
       <Image
         className="rounded-md h-80 object-cover w-80"
         src={
-          "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=2459&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          Img1
         }
         width={300}
         height={300}
