@@ -17,13 +17,13 @@ import Image6 from "../../public/assets/newarrival/6-.jpg";
 import Image7 from "../../public/assets/newarrival/7-.jpg";
 
 //best  seller images
-import BestSellerImg1 from "../../public/assets/bestseller/1-.jpg";
-import BestSellerImg2 from "../../public/assets/bestseller/2-.jpg";
-import BestSellerImg3 from "../../public/assets/bestseller/3-.jpg";
-import BestSellerImg4 from "../../public/assets/bestseller/4-.jpg";
-import BestSellerImg5 from "../../public/assets/bestseller/5-.jpg";
-import BestSellerImg6 from "../../public/assets/bestseller/6-.jpg";
-import BestSellerImg7 from "../../public/assets/bestseller/7-.jpg";
+import BestSellerImg1 from "../../public/assets/Bestseller/1-.jpg";
+import BestSellerImg2 from "../../public/assets/Bestseller/2-.jpg";
+import BestSellerImg3 from "../../public/assets/Bestseller/3-.jpg";
+import BestSellerImg4 from "../../public/assets/Bestseller/4-.jpg";
+import BestSellerImg5 from "../../public/assets/Bestseller/5-.jpg";
+import BestSellerImg6 from "../../public/assets/Bestseller/6-.jpg";
+import BestSellerImg7 from "../../public/assets/Bestseller/7-.jpg";
 export const reviews = [
   {
     id: 1,
