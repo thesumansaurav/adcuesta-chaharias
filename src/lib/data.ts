@@ -1,12 +1,29 @@
 import Sarees from "../../public/assets/catalogue/sarees.jpg";
 import Suits from "../../public/assets/catalogue/suits.jpg";
 import Lehenga from "../../public/assets/catalogue/lehanga.jpg";
-import Accessories from "../../public/assets/catalogue/new2.jpg";
+import Accessories from "../../public/assets/catalogue/accessories.jpg";
 import DressMaterial from "../../public/assets/catalogue/dress.jpg";
-import SuitingShirting from "../../public/assets/catalogue/new1.jpg";
+import SuitingShirting from "../../public/assets/catalogue/suiting-shirting.jpg";
 import Woolen from "../../public/assets/catalogue/woolen.jpg";
 import Handloom from "../../public/assets/catalogue/handloom.jpg";
 
+//New Arrival images
+import Image1 from "../../public/assets/newarrival/1-.jpg";
+import Image2 from "../../public/assets/newarrival/2-.jpg";
+import Image3 from "../../public/assets/newarrival/3-.jpg";
+import Image4 from "../../public/assets/newarrival/4-.jpg";
+import Image5 from "../../public/assets/newarrival/5-.jpg";
+import Image6 from "../../public/assets/newarrival/6-.jpg";
+import Image7 from "../../public/assets/newarrival/7-.jpg";
+
+//best  seller images
+import BestSellerImg1 from "../../public/assets/bestseller/1-.jpg";
+import BestSellerImg2 from "../../public/assets/bestseller/2-.jpg";
+import BestSellerImg3 from "../../public/assets/bestseller/3-.jpg";
+import BestSellerImg4 from "../../public/assets/bestseller/4-.jpg";
+import BestSellerImg5 from "../../public/assets/bestseller/5-.jpg";
+import BestSellerImg6 from "../../public/assets/bestseller/6-.jpg";
+import BestSellerImg7 from "../../public/assets/bestseller/7-.jpg";
 export const reviews = [
   {
     id: 1,
@@ -156,6 +173,115 @@ export const CatalogData = [
     title: "Accessories",
     description: "Add the perfect finishing touch with our trendy accessories.",
     imagePath: Accessories,
+  },
+  {
+    id: 8,
+    title: "Handloom",
+    description: "Handcrafted beauty that brings tradition to your wardrobe.",
+    imagePath: Handloom,
+  },
+];
+export const NewArrivalData = [
+  {
+    id: 1,
+    title: "Sarees",
+    description: "Timeless sarees for every occasion.",
+    imagePath: Image1
+  },
+  {
+    id: 2,
+    title: "Suits",
+    description:
+      "Beautiful and comfortable suits for everyday and special days.",
+    imagePath: Image2,
+  },
+  {
+    id: 3,
+    title: "Lehenga",
+    description:
+      "Stunning lehengas to make your celebrations even more special.",
+    imagePath: Image3,
+  },
+
+  {
+    id: 5,
+    title: "Dress Material",
+    description: "High-quality fabrics to stitch your dream outfit.",
+    imagePath: Image4,
+  },
+  {
+    id: 6,
+    title: "Suiting & Shirting",
+    description:
+      "Tailored for perfection—premium fabrics for the sharpest look.",
+    imagePath: Image5,
+  },
+  {
+    id: 7,
+    title: "Woolen",
+    description: "Stay warm and stylish with our cozy woolen collection.",
+    imagePath: Image6,
+  },
+  {
+    id: 4,
+    title: "Accessories",
+    description: "Add the perfect finishing touch with our trendy accessories.",
+    imagePath: Image7,
+  },
+  {
+    id: 8,
+    title: "Handloom",
+    description: "Handcrafted beauty that brings tradition to your wardrobe.",
+    imagePath: Handloom,
+  },
+];
+
+
+export const BestSellerData = [
+  {
+    id: 1,
+    title: "Sarees",
+    description: "Timeless sarees for every occasion.",
+    imagePath: BestSellerImg1
+  },
+  {
+    id: 2,
+    title: "Suits",
+    description:
+      "Beautiful and comfortable suits for everyday and special days.",
+    imagePath: BestSellerImg2,
+  },
+  {
+    id: 3,
+    title: "Lehenga",
+    description:
+      "Stunning lehengas to make your celebrations even more special.",
+    imagePath: BestSellerImg3,
+  },
+  {
+    id: 5,
+    title: "Dress Material",
+    description: "High-quality fabrics to stitch your dream outfit.",
+    imagePath: BestSellerImg4,
+  },
+  {
+    id: 6,
+    title: "Suiting & Shirting",
+    description:
+      "Tailored for perfection—premium fabrics for the sharpest look.",
+    imagePath: BestSellerImg5,
+  },
+  {
+    id: 7,
+    title: "Woolen",
+    description: "Stay warm and stylish with our cozy woolen collection.",
+    imagePath: BestSellerImg6,
+  },
+  {
+    id: 4,
+    title: "Accessories",
+    description: "Add the perfect finishing touch with our trendy accessories.",
+    imagePath: BestSellerImg7,
   },
   {
     id: 8,

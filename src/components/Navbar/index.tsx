@@ -6,13 +6,13 @@ import MobileNavbar from "./MobileNavbar";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const items = [
-  "Home",
-  "About us",
-  "Men",
-  "Women",
-  "Home Furnishing",
-  "Brands",
-  "Contact",
+  {name: "Home", link: "/"},
+  {name: "About us", link: "aboutus"},
+  {name: "Men", link: ""},
+  {name: "Women", link: ""},
+  {name: "Home Furnishing", link: ""},
+  {name: "Brands", link: ""},
+  {name: "Contact", link: ""}
 ];
 const socials = [FaInstagram, FaFacebook, FaYoutube];
 

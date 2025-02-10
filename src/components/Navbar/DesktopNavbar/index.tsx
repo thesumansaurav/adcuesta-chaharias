@@ -5,7 +5,7 @@ import { IconType } from "react-icons";
 import Link from "next/link";
 
 type DesktopNavbarProps = {
-  items: string[];
+  items: any[];
   socials: IconType[];
 };
 
@@ -24,9 +24,9 @@ const DesktopNavbar: FC<DesktopNavbarProps> = ({ items, socials }) => {
           {/* <p className="font-semibold text-2xl text-white">Chaharias</p> */}
         </Link>
         <ul className="flex gap-10">
-          {items.map((item) => (
-            <li className="text-lg text-white cursor-pointer" key={item}>
-              {item}
+          {items.map((item, index) => (
+            <li className="text-lg text-white cursor-pointer" key={index} >
+              <Link href={item.link}> {item.name} </Link>
             </li>
           ))}
         </ul>

@@ -1,11 +1,7 @@
-"use client";
-import { CatalogData } from "@/lib/data";
+import { NewArrivalData } from "@/lib/data";
 import Image, { StaticImageData } from "next/image";
 import Heading from "../Heading";
 import InnerWrapper from "../InnerWrapper";
-
-import React from "react";
-import { Swiper, SwiperSlide } from 'swiper/react';
 
 const NewArrivalCard = ({ imageUrl }: { imageUrl: StaticImageData }) => {
   return (
@@ -27,31 +23,11 @@ const NewArrival = () => {
     <InnerWrapper>
       <Heading>New Arrivals</Heading>
 
-      <div className="hidden md:block">
-        <div className="flex flex-wrap w-full justify-between">
-          {CatalogData.map((product) => (
-            <NewArrivalCard key={product.id} imageUrl={product.imagePath} />
-          ))}
-        </div>
+      <div className="flex flex-wrap w-full justify-between">
+        {NewArrivalData.map((product) => (
+          <NewArrivalCard key={product.id} imageUrl={product.imagePath} />
+        ))}
       </div>
-
-      <div className="block md:hidden">
-        <Swiper
-          loop={true}
-          cssMode={true}
-          slidesPerView={1.2}
-          slidesPerGroup={1}
-          spaceBetween={0}
-        >
-          {CatalogData.map((product) => (
-            <SwiperSlide className="product-box" key={product.id}>
-              <NewArrivalCard imageUrl={product.imagePath} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
-
-
     </InnerWrapper>
   );
 };

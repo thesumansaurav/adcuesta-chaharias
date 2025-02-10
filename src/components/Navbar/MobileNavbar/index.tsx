@@ -9,7 +9,7 @@ import CircleBG from "../CircleBg";
 import Link from "next/link";
 
 type MobileNavbarProps = {
-  items: string[];
+  items: any[];
   socials: IconType[];
 };
 
@@ -82,12 +82,12 @@ const MobileNavbar: FC<MobileNavbarProps> = ({ items, socials }) => {
               />
             </div>
             <ul className="gap-10 my-10">
-              {items.map((item) => (
+              {items.map((item, index) => (
                 <li
                   className="text-base my-4 text-white select-none cursor-pointer"
-                  key={item}
+                  key={index}
                 >
-                  {item}
+                  {item.name}
                 </li>
               ))}
             </ul>
