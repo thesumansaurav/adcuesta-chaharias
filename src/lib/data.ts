@@ -283,10 +283,10 @@ export const BestSellerData = [
     description: "Add the perfect finishing touch with our trendy accessories.",
     imagePath: BestSellerImg7,
   },
-  {
-    id: 8,
-    title: "Handloom",
-    description: "Handcrafted beauty that brings tradition to your wardrobe.",
-    imagePath: Handloom,
-  },
+  // {
+  //   id: 8,
+  //   title: "Handloom",
+  //   description: "Handcrafted beauty that brings tradition to your wardrobe.",
+  //   imagePath: Handloom,
+  // },
 ];

@@ -24,7 +24,7 @@ const BestSeller = () => {
       <Heading>Best Seller</Heading>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-        {BestSellerData.slice(0, 4).map((product) => (
+        {BestSellerData.slice(0, 7).map((product) => (
           <BestSellerCard key={product.id} imageUrl={product.imagePath}  />
         ))}
       </div>
