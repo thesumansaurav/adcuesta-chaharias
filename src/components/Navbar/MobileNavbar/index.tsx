@@ -3,16 +3,19 @@
 import { cn } from "@/lib/cn";
 import Image from "next/image";
 import { FC, useEffect, useState } from "react";
-import { IconType } from "react-icons";
 import { IoCloseSharp, IoMenu } from "react-icons/io5";
 import CircleBG from "../CircleBg";
 import Link from "next/link";
+import { IconType } from "react-icons";
 
 type MobileNavbarProps = {
-  items: any[];
+  items: Item[];
   socials: IconType[];
 };
 
+interface Item {
+  name: string;
+}
 const MobileNavbar: FC<MobileNavbarProps> = ({ items, socials }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
