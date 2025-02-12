@@ -4,7 +4,6 @@ import Image, { StaticImageData } from "next/image";
 import Heading from "../Heading";
 import InnerWrapper from "../InnerWrapper";
 
-import { CatalogData } from "@/lib/data";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 const NewArrivalCard = ({ imageUrl }: { imageUrl: StaticImageData }) => {
@@ -42,7 +41,7 @@ const NewArrival = () => {
           slidesPerGroup={1}
           spaceBetween={0}
         >
-          {CatalogData.map((product) => (
+          {NewArrivalData.map((product) => (
             <SwiperSlide className="product-box" key={product.id}>
               <NewArrivalCard imageUrl={product.imagePath} />
             </SwiperSlide>

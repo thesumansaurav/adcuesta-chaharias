@@ -1,6 +1,6 @@
 "use client";
 
-import { CatalogData } from "@/lib/data";
+import { BestSellerData } from "@/lib/data";
 import Image, { StaticImageData } from "next/image";
 import Heading from "../Heading";
 import InnerWrapper from "../InnerWrapper";
@@ -29,7 +29,7 @@ const BestSeller = () => {
 
     <div className="hidden md:block">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-        {CatalogData.slice(0, 7).map((product) => (
+        {BestSellerData.slice(0, 7).map((product) => (
           <BestSellerCard key={product.id} imageUrl={product.imagePath} />
         ))}
       </div>
@@ -43,7 +43,7 @@ const BestSeller = () => {
                 slidesPerGroup={1}
                 spaceBetween= {16}
               >
-                {CatalogData.map((product) => (
+                {BestSellerData.map((product) => (
                   <SwiperSlide className="product-box" key={product.id}>
                     <BestSellerCard imageUrl={product.imagePath} />
                   </SwiperSlide>
