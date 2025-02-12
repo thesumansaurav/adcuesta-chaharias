@@ -15,6 +15,7 @@ type MobileNavbarProps = {
 
 interface Item {
   name: string;
+  link: string;
 }
 const MobileNavbar: FC<MobileNavbarProps> = ({ items, socials }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -90,7 +91,7 @@ const MobileNavbar: FC<MobileNavbarProps> = ({ items, socials }) => {
                   className="text-base my-4 text-white select-none cursor-pointer"
                   key={index}
                 >
-                  {item.name}
+                  <Link href={item.link} onClick={() => setIsOpen(false)}> {item.name} </Link>
                 </li>
               ))}
             </ul>
