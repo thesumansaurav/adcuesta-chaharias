@@ -5,9 +5,13 @@ import { IconType } from "react-icons";
 import Link from "next/link";
 
 type DesktopNavbarProps = {
-  items: any[];
+  items: Item[];
   socials: IconType[];
 };
+interface Item {
+  name: string;
+  link: string;
+}
 
 const DesktopNavbar: FC<DesktopNavbarProps> = ({ items, socials }) => {
   return (
